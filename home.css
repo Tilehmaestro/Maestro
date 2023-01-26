@@ -1,0 +1,54 @@
+*{
+    scroll-behavior: smooth;
+}
+.logoheader{
+    text-align: left;
+    align-self: left;
+    margin-right: 200px;
+    color: chartreuse;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.nav{
+    backdrop-filter: blur(30px);
+    height: 30px;
+}
+a{
+    color: chartreuse;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 40px;
+}
+.details{
+    color:lavenderblush;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.head{
+    font-weight: 400;
+    font-size: larger;
+}
+body{
+    background-image: url(Photos/IMG_20221020_083822.jpg);
+    background-color: blueviolet;
+    background-color: rgb(0, 0, 0,0.6);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+button{
+    border-radius: 15px;
+    background-color: rgb(68, 68, 184);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color:chartreuse;
+    color: chartreuse;
+}
+button:hover{
+    cursor: pointer;
+}

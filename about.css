@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Segoe Ui, sans-serif;
+}
+.two {
+  height: 120vh;
+  position: relative;
+}
+.top-bar {
+  height: 2.5rem;
+  width: 100%;
+  background-color: #011a27;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  padding: 3px;
+  font-weight: 300;
+}
+.wrapper1,
+.wrapper2 {
+  width: 85vw;
+  height: 60vh;
+  margin: 1rem auto auto;
+  display: flex;
+  column-count:4;
+  -webkit-column-count:4;
+}
+.wrapper2 {
+  margin-top: 0;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7,
+.card8 {
+  width: 22vw;
+  height: 100%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  float: left;
+  position: relative;
+}
+.profile-pic-levine{
+  height: 6rem;
+  top: 5%;
+  width: 6rem;
+  margin: auto;
+  border-radius: 50%;
+  border: 1px solid rgb(102, 102, 102);
+  z-index: 5;
+  position: relative;
+  background-size: cover;
+  background-image: url(Photos/levine.jpg);
+  transition: transform .2s;
+}
+.profile-pic-levine:hover{
+  transform: scale(1.5);
+}
+.profile-pic-carson{
+  height: 6rem;
+  top: 5%;
+  width: 6rem;
+  margin: auto;
+  border-radius: 50%;
+  border: 1px solid rgb(102, 102, 102);
+  z-index: 5;
+  position: relative;
+  background-size: cover;
+  background-image: url(Photos/Carsonreal.jpg);
+  transition: transform .2s;
+
+}
+.profile-pic-carson:hover{
+  transform: scale(1.5);
+}
+.profile-pic-osteen{
+  height: 6rem;
+  top: 5%;
+  width: 6rem;
+  margin: auto;
+  border-radius: 50%;
+  border: 1px solid rgb(102, 102, 102);
+  z-index: 5;
+  position: relative;
+  background-size: cover;
+  background-image: url(Photos/osteen.jpg);
+  transition: transform .2s;
+}
+.profile-pic-osteen:hover{
+  transform: scale(1.5);
+}
+.profile-pic-clyde{
+  height: 6rem;
+  top: 5%;
+  width: 6rem;
+  margin: auto;
+  border-radius: 50%;
+  border: 1px solid rgb(102, 102, 102);
+  z-index: 5;
+  position: relative;
+  background-size: cover;
+  background-image: url(Photos/Clyde.jpg);
+  transition: transform .2s;
+}
+.profile-pic-clyde:hover{
+  transform: scale(1.5);
+}
+.profile-pic-tileh{
+  height: 6rem;
+  top: 5%;
+  width: 6rem;
+  margin: auto;
+  border-radius: 50%;
+  border: 1px solid rgb(102, 102, 102);
+  z-index: 5;
+  position: relative;
+  background-size: cover;
+  background-image: url(Photos/Tileh.jpg);
+  transition: transform .2s;
+}
+.profile-pic-tileh:hover{
+  transform: scale(1.5);
+}
+.profile-pic-magadi{
+  height: 6rem;
+  top: 5%;
+  width: 6rem;
+  margin: auto;
+  border-radius: 50%;
+  border: 1px solid rgb(102, 102, 102);
+  z-index: 5;
+  position: relative;
+  background-size: cover;
+  background-image: url(Photos/Magadi\ real.jpg);
+  transition: transform .2s;
+}
+.profile-pic-magadi:hover{
+  transform: scale(1.5);
+}
+.profile-pic-clinton{
+  height: 6rem;
+  top: 5%;
+  width: 6rem;
+  margin: auto;
+  border-radius: 50%;
+  border: 1px solid rgb(102, 102, 102);
+  z-index: 5;
+  position: relative;
+  background-size: cover;
+  background-image: url(Photos/Clinto\ real.jpg);
+  transition: transform .2s;
+}
+.profile-pic-clinton:hover{
+  transform: scale(1.5);
+}
+.profile-pic-don{
+  height: 6rem;
+  top: 5%;
+  width: 6rem;
+  margin: auto;
+  border-radius: 50%;
+  border: 1px solid rgb(102, 102, 102);
+  z-index: 5;
+  position: relative;
+  background-size: cover;
+  background-image: url(Photos/Don.jpg);
+  transition: transform .2s;
+}
+.profile-pic-don:hover{
+  transform: scale(1.5);
+}
+.container {
+  height: 70%;
+  width: 90%;
+  margin: auto;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+  border-radius: 15px;
+  background-color: rgb(239, 241, 243);
+  border: 1px solid rgba(165, 165, 165, 0.555);
+  box-shadow: 0 0 20px 2px #929292;
+  transition: 300ms;
+}
+.container:hover {
+  transform: translateY(9px);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 100;
+}
+.details {
+  height: 40%;
+  width: 100%;
+  bottom: 20%;
+  position: absolute;
+  text-align: center;
+  border-radius: 15px;
+}
+.details:hover {
+  height: 80%;
+}
+.social-links {
+  height: 30%;
+  width: 80%;
+  margin: auto;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+  border-radius: 15px;
+}
+ul {
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: rgb(239, 241, 243);
+}
+
+img {
+  width: 55%;
+  position: relative;
+  margin-left: 20%;
+  padding-top: 1%;
+  transition: 400ms;
+}
+img:hover {
+  width: 80%;
+  transform: translateY(5px);
+  
+}
+
+h4 {
+  padding-top: 3%;
+  color: rgb(0, 0, 0);
+}
+
+h6 {
+  padding-top: 5%;
+}
+p {
+  margin: 5%;
+  color: rgba(255, 255, 255, 0);
+}
+p:hover {
+  color: rgb(43, 43, 43);
+  font-weight: 400;
+  transform: translateY(-5px);
+  font-size: 90%;
+}
+.three {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-color: black;
+}
+.contact_us_details {
+  height: 50vh;
+  width: 70em;
+  margin-right: 5%;
+  margin-bottom: 3em;
+
+  background-color: white;
+}
+@media (max-width: 1000px) {
+ .container{
+  width: 40%;
+ }
+}
+@media (max-width: 620px) {
+  .wrapper1, .wrapper2{
+    width: 100%;
+ }
+}
+
+
+
+
+

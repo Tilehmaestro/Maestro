@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+    background: cornflowerblue;
+}
+
+.container{
+    width: 1600px;
+    height: 700px;
+    display: flex;   
+    background: rgb(238, 236, 236);
+}
+
+.container .videos{
+    width: 20%;
+    padding: 10px 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container .videos video{
+    width: 95%;
+    height: 100px;
+    margin: 10px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.container .videos video:nth-child(1){
+    margin-top: 0;
+}
+
+.container .videos video:hover,
+.container .videos .active{
+    transform: scale(1.06);
+    border: 3px solid blue;
+}
+
+.container .main-video{
+    width: 80%;
+    padding: 10px;
+}
+
+.container .main-video video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 3px solid blue;
+}
+@media (max-width: 1200px) {
+   .videos {
+    -moz-column-count:    4;
+    -webkit-column-count: 4;
+    column-count:         4;
+   }
+}
+@media (max-width: 1000px) {
+   .videos {
+    -moz-column-count:    3;
+    -webkit-column-count: 3;
+    column-count:         3;
+   }
+}
+@media (max-width: 800px) {
+   #gallery {
+    -moz-column-count:    2;
+    -webkit-column-count: 2;
+    column-count:         2;
+   }
+}
+@media (max-width: 400px) {
+   #gallery {
+    -moz-column-count:    1;
+    -webkit-column-count: 1;
+    column-count:         1;
+   }
+}

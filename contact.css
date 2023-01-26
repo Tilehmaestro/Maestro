@@ -1,0 +1,94 @@
+*{
+    scroll-behavior: smooth;
+}
+.logoheader{
+    text-align: left;
+    align-self: left;
+    margin-right: 200px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.nav{
+    backdrop-filter: blur(30px);
+    height: 30px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 40px;
+}
+img{
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    transition: transform .2s;
+}
+img:hover{
+    transform: scale(1.5);
+   
+
+}
+.one{
+    display: flex;
+    height: 300px;
+    margin-top: 40px;
+    background-color: teal;
+}
+body{
+    background-color: #ffaa84;
+}
+h1{
+    text-align: center;
+
+}
+.location{
+    width: 200px;
+    height: 100%;
+    margin-left: 250px;
+    margin-right: 200px;
+}
+.email{
+    width: 200px;
+    height: 100%;
+    margin-right: 200px;
+}
+.phone{
+    width: 200px;
+    height: 100%;
+    margin-right: 200px;
+}
+.two{
+    display: flex;
+     background-image: url(Photos/All\ instruments.jpg);
+     background-color: rgb(0, 0, 0,0.6);
+     background-blend-mode: multiply;
+     background-size: cover;
+     color: white;
+}
+.message{
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+.inpmessage{
+    height: 100px;
+    width: 200px;
+}
+.inpname{
+    margin-top: 20px;
+}
+input{
+    margin-right: 20px;
+}
+button{
+    background-color: chartreuse;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
